@@ -12,8 +12,8 @@ function Home() {
   const { register, handleSubmit } = useForm<IFormState>();
 
   const onSubmit: SubmitHandler<IFormState> = (data) => {
-    console.log(data)
-  }
+    console.log(data);
+  };
 
   return (
     <div className={styles.wrapper}>
